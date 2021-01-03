@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8172721239b4778bc0ea513bbb6b782" Name="Diagram1">
+        <EntityTypeShape EntityType="JhackthonModel.Categories" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="JhackthonModel.Entrepreneurs" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="JhackthonModel.Participants" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="JhackthonModel.Project" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="JhackthonModel.ProjectsCodes" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="JhackthonModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="JhackthonModel.Users" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="JhackthonModel.FK_Participants_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="JhackthonModel.FK_Project_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="JhackthonModel.FK_Entrepreneurs_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="JhackthonModel.FK_Participants_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="JhackthonModel.FK_ProjectsCodes_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="JhackthonModel.FK_ProjectsCodes_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
