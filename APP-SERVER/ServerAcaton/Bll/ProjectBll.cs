@@ -8,5 +8,14 @@ namespace Bll
 {
     class ProjectBll
     {
+         static JhackthonProjectEntities DB = new JhackthonProjectEntities();
+
+       
+             public static List<ProjectEntities> getAllProjects()//שליפת כל הפרוייקטים
+               {
+
+                    return ProjectEntities.ToListProjectEntities(DB.Project.ToList());
+               }
+
     }
 }
